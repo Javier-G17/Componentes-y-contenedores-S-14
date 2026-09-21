@@ -13,12 +13,12 @@ El objetivo de la semana 14 es mejorar la interfaz gráfica de la aplicación me
 ## Estructura del proyecto
 
 ```text
-biblioteca_app/
+resturante_app/
 ├── assets/
 │   ├── icons/
 │   └── logo/
 ├── datos/
-│   ├── libros.json
+│   ├── productos.json
 │   └── usuarios.json
 ├── modelos/
 ├── servicios/
