@@ -1,15 +1,14 @@
-## Restaurante App 
-# Componentes y contenedores con Tkinder
----
+# Restaurante App 
+## Componentes y contenedores con Tkinder
+
 ## Datos del estudiante
 
 **Nombre**: Bonner Javier García Guanga
 
----
+
 ## Descripción
 El objetivo de la semana 14 es mejorar la interfaz gráfica de la aplicación mediante el uso de componentes y contenedores, manteniendo la arquitectura desarrollada en semanas anteriores y permitiendo la gestión de productos mediante operaciones básicas de registro, consulta, actualización y eliminación
 
----
 
 ## Estructura del proyecto
 
@@ -27,8 +26,8 @@ biblioteca_app/
 └── main.py
 
 ``` 
----
-# Capas
+
+## Capas
 
 `modelos/`: define las clases `Usuario` y `Producto`, con validaciones basicas para evitar campos vacios.
 
@@ -41,8 +40,8 @@ biblioteca_app/
 `assets/icons/`: contiene los iconos PNG usados por los botones. Si falta un icono, la aplicacion sigue funcionando con texto.
 
 `assets/logo/`: contiene la identidad visual principal de la aplicacion. `logo.png` se muestra dentro de la interfaz y `icono.png` se usa como icono de la ventana.
---- 
-# Componentes utilizados
+
+## Componentes utilizados
 
 La interfaz gráfica fue desarrollada utilizando componentes de Tkinter y ttk:
 
@@ -54,8 +53,8 @@ La interfaz gráfica fue desarrollada utilizando componentes de Tkinter y ttk:
 - Treeview
 - Scrollbar
 - Messagebox
----
-# Contenedores utilizados
+
+## Contenedores utilizados
 
 Para mejorar la organización visual de la aplicación se utilizaron los siguientes contenedores:
 
@@ -64,8 +63,8 @@ Para mejorar la organización visual de la aplicación se utilizaron los siguien
 - Frame lateral para el menú de navegación.
 - Frame principal para el contenido dinámico.
 - Barra de estado para mostrar información general del sistema.
----
-# Funcionalidades implementadas
+
+## Funcionalidades implementadas
 
 **Inicio de sesión**
 
@@ -99,8 +98,9 @@ La información se almacena en archivos JSON locales:
 La lectura y escritura de datos se realiza mediante ArchivoServicio.
 
 Las modificaciones permanecen almacenadas incluso después de cerrar la aplicación.
----
-# Flujo general de la aplicación
+
+## Flujo general de la aplicación
+
 ```text
 Inicio de la aplicación
         ↓
@@ -122,8 +122,8 @@ Persistencia en productos.json
         ↓
 Actualización de la interfaz
 ```
----
-# Ejecución del proyecto
+
+## Ejecución del proyecto
 
 1. Abrir el proyecto en Visual Studio Code.
 2. Verificar que existan los archivos JSON dentro de la carpeta datos.
@@ -133,14 +133,14 @@ python main.py
 ```
 4. Ingresar con un usuario registrado.
 5. Utilizar el menú lateral para acceder a Usuarios o Productos.
----
-# Credencial de demostración
+
+## Credencial de demostración
 
 Usuario: `admin`
+
 Contrasena: `1234`
 
---- 
-# Mejoras realizadas 
+## Mejoras realizadas 
 
 - Reorganización visual de la interfaz mediante contenedores.
 - Incorporación de formularios para la gestión de productos.
@@ -149,7 +149,7 @@ Contrasena: `1234`
 - Actualización automática de la información mostrada.
 - Mejora de la experiencia de usuario mediante una interfaz más clara y ordenada.
 - Conservación de la arquitectura modular desarrollada en semanas anteriores.
----
-# Conclusión
+
+## Conclusión
 
 La evolución del proyecto permitió fortalecer el desarrollo de interfaces gráficas mediante el uso de componentes y contenedores de Tkinter. La aplicación mantiene la separación de responsabilidades entre modelos, servicios e interfaz, permitiendo gestionar productos de forma organizada y conservar la información mediante archivos JSON. Además, la mejora visual realizada facilita la interacción del usuario y demuestra la integración adecuada de los conceptos estudiados durante la semana.
